@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+.header-box {
+    display: flex;
+    gap: 24px;
+}
+
+.header-text {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 15.23px;
+    letter-spacing: 1.399999976158142px;
+}
+
+.header-lead {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+
+.the-container {
+    background-image: url(bg\ image.png);
+    max-width: 1440px;
+    height: 504px;
+    margin: auto;
+}
+
+.the-title {
+    font-family: Roboto;
+    font-size: 43px;
+    line-height: 46px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+.the-box {
+    padding-top: 188px;
+}
+
+.the-lead {
+    font-size: 15px;
+    line-height: 17.58px;
+    letter-spacing: 0.80px;
+    margin-top: 12px;
+}
+
+.the-text {
+    margin-top: 28px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    letter-spacing: 1.39px;
+    text-align: center;
+}
+
+.des {
+    margin-top: 80px;
+}
+
+.des-container {
+    max-width: 580px;
+    height: 153px;
+    margin: auto;
+}
+
+.des-title {
+    color: #000000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+.the-lead {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.80px;
+    text-align: center;
+    color: white;
+}
+
+.des-lead {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1.399999976158142px;
+    text-align: center;
+    color: #000000;
+    margin-top: 26px;
+}
+
+.des-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.800000011920929px;
+    text-align: center;
+    color: #A0A0A0;
+    margin-top: 23px;
+}
+
+.card {
+    margin-top: 80px;
+}
+
+.card-container {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+}
+
+.card-box {
+    width: 682.5px;
+    padding: 0px 12.5px 0px 12.5px;
+}
+
+.card-title {
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 49px;
+}
+
+.card-lead {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    letter-spacing: 1.39px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.card-img {
+    max-width: 100%;
+}
+
+.phone {
+    margin-top: 120px;
+}
+
+.phone-container {
+    max-width: 1287px;
+    margin: auto;
+    height: 70px;
+}
+
+.phone-lead {
+    margin-top: 16px;
+}
+
+.phone-img {
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.tel {
+    margin-top: 105px;
+}
+
+.tel-container {
+    max-width: 1340px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tel-title {
+    margin-top: 23px;
+    text-align: left;
+}
+
+.tel-lead {
+    margin-top: 0;
+    text-align: left;
+}
+
+.home {
+    margin-top: 101px;
+}
+
+.home-container {
+    max-width: 1440px;
+    margin: auto;
+    background-image: url(home\ bg.png);
+    background-repeat: no-repeat;
+    padding-top: 175px;
+    padding-bottom: 180px;
+}
+
+.home-title {
+    font-family: Roboto;
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+}
+
+.made {
+    margin-top: 117px;
+}
+
+.made-container {
+    max-width: 1116px;
+    margin: auto;
+}
+
+.made-title {
+    margin-top: 0;
+}
+
+.amde-lead {
+    margin-top: 23px;
+    max-width: 777px;
+}
+
+.made-img {
+    margin-top: 23px;
+    width: 100%;
+}
+
+.made-text {
+    margin-top: 38px;
+}
+
+.made-lead-1 {
+    margin-top: 23px;
+    margin-bottom: 80px;
+}
+
+.grid-container {
+    max-width: 1365px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 25px;
+    row-gap: 27px;
+    padding-bottom: 28px;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin-top: 96px;
+}
+
+.lead {
+    margin-top: 44px;
+}
+
+.in {
+    margin-top: 120px;
+}
+
+.in-container {
+    max-width: 1340px;
+    height: 404px;
+    margin: auto;
+    padding-top: 119px;
+    background: #9AA8B1;
+}
+
+.in-img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.in-lead {
+    color: #FFFFFF;
+    margin-top: 23px;
+}
+
+.footer {
+    margin-top: 40px;
+    background: #F9F9F9;
+}
+
+.footer-container {
+    max-width: 1340px;
+    margin: auto;
+    height: 500px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box-1 {
+    gap: 13px;
+    display: flex;
+    margin-top: 80px;
+}
+
+.footer-items {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.footer-item {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.footer-lead {
+    margin-bottom: 23px;
+}
+
+.footer-text {
+    max-width: 348px;
+    text-align: left;
+    color: #A0A0A0;
+    letter-spacing: 0.8px;
+}
+
+.footer-copy {
+    margin-top: 92px;
+    max-width: 320px;
+    height: 1px;
+    background: #000;
+}
+.footer-items1{
+    list-style: none;
+    display: flex;
+    gap: 37px;
+    justify-content: end;
+    padding-top: 80px;
+}
+.footer-item1{
+    color: #000000;
+}
+.header-menu{
+    display: none;
+    cursor: pointer;
+}
+@media screen and (max-width:992px) {
+    .grid-container{
+        grid-template-columns: auto auto auto auto ;
+    }
+}
+@media screen and (max-width:768px) {
+    .made-lead{
+        text-align: justify;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width:640px) {
+    .grid-container{
+        grid-template-columns: auto auto auto ;
+    }
+    .footer-img,.header-logo,.header-lead{
+        display: none;
+    }
+    .tel-container{
+        flex-direction: column;
+        margin-left: 25%;
+    }
+    .tel-box{
+        margin-bottom: 24px;    
+    }
+    .header-menu{
+        display: block;
+        width: 36px;
+        height: 36px;
+    }
+}
+@media screen and (max-width:465px) {
+    .tel-container{
+        margin-left: 10%;
+    }
+    .footer-text{
+        max-width: 190px;
+    }
+    .card-title{
+        font-size: 22px;
+    }
+    .footer-itemm{
+        font-size: 10px;
+    }
+    .footer-item1{
+        font-size: 10px;
+    }
+}
